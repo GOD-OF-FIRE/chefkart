@@ -5,9 +5,117 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
-
+*{
+  background-color: white;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.black{
+  background-color: black;
+  height: 5em;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+.datetime{
+  background-color: white;
+  width: 50em;
+  height: 3em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.varity{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.varity div{
+  border: 2px solid rgb(255, 187, 0);
+  color: rgb(255, 187, 0);
+  font-weight: 800;
+  border-radius: 50px;
+  min-width: 4em;
+}
+.add{
+  border: 2px solid rgb(255, 187, 0);
+  color: rgb(255, 166, 0);
+  font-weight: 800;
+  border-radius: 50px;
+  width: 4em;
+}
+.popular img{
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  margin: 0;
+}
+.popular{
+  display: flex;
+  justify-content: space-around;
+}
+.popular h4{
+  margin: 0;
+}
+.wrapper{
+  position: sticky;
+  top: 0px;
+}
+.dishImage img{
+  width: 7em;
+  height: 5em;
+  border-radius: 5px;
+  margin: 3px;
+}
+.dishes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rating{
+  display: inline-block;
+  margin-left:2em ;
+  border-radius: 50px;
+  background-color: greenyellow;
+  width: 3em;
+  font-weight: 300;
+  font-size:small;
+}
+.dishImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.wrap{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-bottom: 10px;
+  width: 40em;
+  justify-content: space-between;
+  
+}
+h3,p,h4,small{
+  text-align: left;
+}
+.dishDetails{
+  margin-right: 10px;
+  
+}
+.Ingrediants{
+  display: flex;
+  justify-content: space-evenly;
+  width: 15em;
+}
+.wrapper{
+height: 100vh;
 }
